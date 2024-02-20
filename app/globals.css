@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+.editor {
+  @apply w-3/4 mx-auto my-10 border-white self-center border-2 rounded-lg;
+}
+
+/* .fr-quick-insert
+{
+  @apply bg-green-300!;
+} */
+
+/* Custom styles for the Quick Insert button without @apply */
+.fr-quick-insert {
+ @apply !left-[-48px] !justify-center !items-center !text-center;
+}
+
+.fr-second-toolbar a {
+@apply !hidden
+}
+
+.fr-floating-btn {
+@apply  !flex !justify-center !items-center !text-center 
+}
+
+.fr-qi-helper {
+  @apply !flex !flex-row
+}
